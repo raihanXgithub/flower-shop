@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: rgb(39, 39, 39);
   font-family: "Lato", sans-serif;
 }
 
@@ -20,6 +21,21 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
+}
+
+.section-text {
+  max-width: 445px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-text * {
+  margin-bottom: 18px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .primary-btn {
@@ -62,7 +78,53 @@
 }
 
 #banner-section .banner-container .banner-img img {
-  padding-top: 50px;
+  padding-top: 36px;
   vertical-align: bottom;
   width: 100%;
+}
+
+/* featured-flowers section related styles */
+#featured-flowers-section {
+  margin-top: 100px;
+}
+
+#featured-flowers-section .featured-images {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+#featured-flowers-section .featured-images figure .featured-img {
+  border-radius: 300px 300px 0px 0px;
+  height: 345px;
+  display: flex;
+  align-items: end;
+  padding: 18px 36px 0;
+}
+
+#featured-flowers-section .featured-images figure .featured-img img {
+  max-width: 235px;
+  width: 100%;
+}
+
+#featured-flowers-section .featured-images figure figcaption {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.pink {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+
+.blue {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+
+.green {
+  background-color: rgba(71, 125, 17, 0.15);
 }
