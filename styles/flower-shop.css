@@ -184,3 +184,18 @@
 .hot-deal-container .hot-deal-img img {
   width: 100%;
 }
+
+/* instagram-section related styles */
+#instagram-section {
+  margin-top: 100px;
+}
+
+.instagram-container .instagram-images {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-container .instagram-images img {
+  max-width: 225px;
+}
